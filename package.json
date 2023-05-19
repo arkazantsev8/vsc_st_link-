@@ -1,7 +1,7 @@
 {
   "name": "vsc-st-link-formatter",
   "displayName": "Yandex Tracker Link Formatter",
-  "description": "",
+  "description": "VS Code extension for Yandex employees. Format your Tracker ticket IDs like links.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.78.0"
@@ -33,5 +33,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/arkazantsev8/vsc_st_link_formatter.git"
-}
+  },
+  "publisher": "ArtemKazantsev" 
 }
