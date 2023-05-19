@@ -1,6 +1,6 @@
 {
-  "name": "st-link-js",
-  "displayName": "st_link_js",
+  "name": "vsc-st-link-formatter",
+  "displayName": "Yandex Tracker Link Formatter",
   "description": "",
   "version": "0.0.1",
   "engines": {
