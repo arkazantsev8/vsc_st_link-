@@ -49,7 +49,7 @@ function activate(context) {
         while (match = regEx.exec(text)) {
             const startPos = activeEditor.document.positionAt(match.index);
             const endPos = activeEditor.document.positionAt(match.index + match[0].length);
-            const decoration = { range: new vscode.Range(startPos, endPos), hoverMessage: `Go to https://myserver.com/${match[0]}` };
+            const decoration = { range: new vscode.Range(startPos, endPos), hoverMessage: `Go to https://st.yandex-team.ru/${match[0]}` };
             links.push(decoration);
         }
 
